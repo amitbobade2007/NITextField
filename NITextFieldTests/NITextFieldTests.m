@@ -2,8 +2,8 @@
 //  NITextFieldTests.m
 //  NITextFieldTests
 //
-//  Created by Amit Bobade on 02/01/13.
-//  Copyright (c) 2013 Amit Bobade. All rights reserved.
+//  Created by Your Company Name on 02/01/15.
+//  Copyright (c) 2015 Your Company Name. All rights reserved.
 //
 
 #import "NITextFieldTests.h"
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in NITextFieldTests");
+    XCTFail(@"Unit tests are not implemented yet in NITextFieldTests");
 }
 
 @end

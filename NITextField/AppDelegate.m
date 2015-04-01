@@ -1,27 +1,46 @@
 //
 //  AppDelegate.m
-//  NITextField
+//  NITextField-Demo
 //
-//  Created by Amit Bobade on 02/01/13.
-//  Copyright (c) 2013 Amit Bobade. All rights reserved.
+//  Created by Your Company Name on 02/01/15.
+//  Copyright (c) 2015 Your Company Name. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
-#import "ViewController.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @implementation AppDelegate
+
+@synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    
+    FirstViewController * firstVC;
+    SecondViewController * secondVC;
+    
+    
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
+        
+        firstVC = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
+        secondVC = [[SecondViewController alloc]initWithNibName:@"SecondViewController" bundle:nil];
+        
     } else {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
+        
+        firstVC = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
+        secondVC = [[SecondViewController alloc]initWithNibName:@"SecondViewController_iPad" bundle:nil];
     }
-    self.window.rootViewController = self.viewController;
+    
+    
+    UITabBarController * tabController = [[UITabBarController alloc]init];
+    tabController.viewControllers = [NSArray arrayWithObjects:firstVC,secondVC, nil];    
+    self.window.rootViewController = tabController;
+    
+    
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

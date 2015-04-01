@@ -12,18 +12,26 @@
 		38CBF66F169408A8004EC88C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CBF66E169408A8004EC88C /* CoreGraphics.framework */; };
 		38CBF675169408A8004EC88C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF673169408A8004EC88C /* InfoPlist.strings */; };
 		38CBF677169408A8004EC88C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBF676169408A8004EC88C /* main.m */; };
-		38CBF67B169408A8004EC88C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBF67A169408A8004EC88C /* AppDelegate.m */; };
 		38CBF67D169408A8004EC88C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF67C169408A8004EC88C /* Default.png */; };
 		38CBF67F169408A8004EC88C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF67E169408A8004EC88C /* Default@2x.png */; };
 		38CBF681169408A8004EC88C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF680169408A8004EC88C /* Default-568h@2x.png */; };
 		38CBF684169408A8004EC88C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBF683169408A8004EC88C /* ViewController.m */; };
 		38CBF687169408A8004EC88C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF685169408A8004EC88C /* ViewController_iPhone.xib */; };
 		38CBF68A169408A8004EC88C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF688169408A8004EC88C /* ViewController_iPad.xib */; };
-		38CBF692169408A8004EC88C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CBF691169408A8004EC88C /* SenTestingKit.framework */; };
 		38CBF693169408A8004EC88C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CBF66A169408A8004EC88C /* UIKit.framework */; };
 		38CBF694169408A8004EC88C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CBF66C169408A8004EC88C /* Foundation.framework */; };
 		38CBF69C169408A8004EC88C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF69A169408A8004EC88C /* InfoPlist.strings */; };
 		38CBF69F169408A8004EC88C /* NITextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBF69E169408A8004EC88C /* NITextFieldTests.m */; };
+		38CBF6AC169408BE004EC88C /* NITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBF6A9169408BE004EC88C /* NITextField.m */; };
+		38CBF6AD169408BE004EC88C /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF6AA169408BE004EC88C /* left.png */; };
+		38CBF6AE169408BE004EC88C /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF6AB169408BE004EC88C /* right.png */; };
+		38CBF6B716940AA1004EC88C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBF6B016940AA0004EC88C /* FirstViewController.m */; };
+		38CBF6B816940AA1004EC88C /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF6B116940AA0004EC88C /* FirstViewController_iPad.xib */; };
+		38CBF6B916940AA1004EC88C /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF6B216940AA1004EC88C /* FirstViewController_iPhone.xib */; };
+		38CBF6BA16940AA1004EC88C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBF6B416940AA1004EC88C /* SecondViewController.m */; };
+		38CBF6BB16940AA1004EC88C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF6B516940AA1004EC88C /* SecondViewController.xib */; };
+		38CBF6BC16940AA1004EC88C /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CBF6B616940AA1004EC88C /* SecondViewController_iPad.xib */; };
+		38CBF6BF16940AD6004EC88C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBF6BE16940AD6004EC88C /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +53,6 @@
 		38CBF674169408A8004EC88C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38CBF676169408A8004EC88C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38CBF678169408A8004EC88C /* NITextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NITextField-Prefix.pch"; sourceTree = "<group>"; };
-		38CBF679169408A8004EC88C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		38CBF67A169408A8004EC88C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		38CBF67C169408A8004EC88C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		38CBF67E169408A8004EC88C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		38CBF680169408A8004EC88C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -55,11 +61,24 @@
 		38CBF686169408A8004EC88C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		38CBF689169408A8004EC88C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		38CBF690169408A8004EC88C /* NITextFieldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NITextFieldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		38CBF691169408A8004EC88C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		38CBF699169408A8004EC88C /* NITextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NITextFieldTests-Info.plist"; sourceTree = "<group>"; };
 		38CBF69B169408A8004EC88C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38CBF69D169408A8004EC88C /* NITextFieldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NITextFieldTests.h; sourceTree = "<group>"; };
 		38CBF69E169408A8004EC88C /* NITextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NITextFieldTests.m; sourceTree = "<group>"; };
+		38CBF6A8169408BE004EC88C /* NITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NITextField.h; sourceTree = "<group>"; };
+		38CBF6A9169408BE004EC88C /* NITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NITextField.m; sourceTree = "<group>"; };
+		38CBF6AA169408BE004EC88C /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		38CBF6AB169408BE004EC88C /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		38CBF6AF16940AA0004EC88C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		38CBF6B016940AA0004EC88C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		38CBF6B116940AA0004EC88C /* FirstViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		38CBF6B216940AA1004EC88C /* FirstViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		38CBF6B316940AA1004EC88C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		38CBF6B416940AA1004EC88C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		38CBF6B516940AA1004EC88C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		38CBF6B616940AA1004EC88C /* SecondViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		38CBF6BD16940AD6004EC88C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38CBF6BE16940AD6004EC88C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +96,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38CBF692169408A8004EC88C /* SenTestingKit.framework in Frameworks */,
 				38CBF693169408A8004EC88C /* UIKit.framework in Frameworks */,
 				38CBF694169408A8004EC88C /* Foundation.framework in Frameworks */,
 			);
@@ -111,7 +129,6 @@
 				38CBF66A169408A8004EC88C /* UIKit.framework */,
 				38CBF66C169408A8004EC88C /* Foundation.framework */,
 				38CBF66E169408A8004EC88C /* CoreGraphics.framework */,
-				38CBF691169408A8004EC88C /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,8 +136,20 @@
 		38CBF670169408A8004EC88C /* NITextField */ = {
 			isa = PBXGroup;
 			children = (
-				38CBF679169408A8004EC88C /* AppDelegate.h */,
-				38CBF67A169408A8004EC88C /* AppDelegate.m */,
+				38CBF6A8169408BE004EC88C /* NITextField.h */,
+				38CBF6A9169408BE004EC88C /* NITextField.m */,
+				38CBF6AA169408BE004EC88C /* left.png */,
+				38CBF6AB169408BE004EC88C /* right.png */,
+				38CBF6BD16940AD6004EC88C /* AppDelegate.h */,
+				38CBF6BE16940AD6004EC88C /* AppDelegate.m */,
+				38CBF6AF16940AA0004EC88C /* FirstViewController.h */,
+				38CBF6B016940AA0004EC88C /* FirstViewController.m */,
+				38CBF6B116940AA0004EC88C /* FirstViewController_iPad.xib */,
+				38CBF6B216940AA1004EC88C /* FirstViewController_iPhone.xib */,
+				38CBF6B316940AA1004EC88C /* SecondViewController.h */,
+				38CBF6B416940AA1004EC88C /* SecondViewController.m */,
+				38CBF6B516940AA1004EC88C /* SecondViewController.xib */,
+				38CBF6B616940AA1004EC88C /* SecondViewController_iPad.xib */,
 				38CBF682169408A8004EC88C /* ViewController.h */,
 				38CBF683169408A8004EC88C /* ViewController.m */,
 				38CBF685169408A8004EC88C /* ViewController_iPhone.xib */,
@@ -200,7 +229,7 @@
 			name = NITextFieldTests;
 			productName = NITextFieldTests;
 			productReference = 38CBF690169408A8004EC88C /* NITextFieldTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +237,7 @@
 		38CBF65D169408A8004EC88C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Amit Bobade";
 			};
@@ -240,6 +270,12 @@
 				38CBF681169408A8004EC88C /* Default-568h@2x.png in Resources */,
 				38CBF687169408A8004EC88C /* ViewController_iPhone.xib in Resources */,
 				38CBF68A169408A8004EC88C /* ViewController_iPad.xib in Resources */,
+				38CBF6AD169408BE004EC88C /* left.png in Resources */,
+				38CBF6AE169408BE004EC88C /* right.png in Resources */,
+				38CBF6B816940AA1004EC88C /* FirstViewController_iPad.xib in Resources */,
+				38CBF6B916940AA1004EC88C /* FirstViewController_iPhone.xib in Resources */,
+				38CBF6BB16940AA1004EC88C /* SecondViewController.xib in Resources */,
+				38CBF6BC16940AA1004EC88C /* SecondViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +311,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				38CBF677169408A8004EC88C /* main.m in Sources */,
-				38CBF67B169408A8004EC88C /* AppDelegate.m in Sources */,
 				38CBF684169408A8004EC88C /* ViewController.m in Sources */,
+				38CBF6AC169408BE004EC88C /* NITextField.m in Sources */,
+				38CBF6B716940AA1004EC88C /* FirstViewController.m in Sources */,
+				38CBF6BA16940AA1004EC88C /* SecondViewController.m in Sources */,
+				38CBF6BF16940AD6004EC88C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,13 +454,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NITextField/NITextField-Prefix.pch";
 				INFOPLIST_FILE = "NITextFieldTests/NITextFieldTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -432,13 +471,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NITextField/NITextField-Prefix.pch";
 				INFOPLIST_FILE = "NITextFieldTests/NITextFieldTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -461,6 +500,7 @@
 				38CBF6A4169408A8004EC88C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38CBF6A5169408A8004EC88C /* Build configuration list for PBXNativeTarget "NITextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +509,7 @@
 				38CBF6A7169408A8004EC88C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
