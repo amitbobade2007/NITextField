@@ -60,7 +60,7 @@
 		38CBF683169408A8004EC88C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		38CBF686169408A8004EC88C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		38CBF689169408A8004EC88C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		38CBF690169408A8004EC88C /* NITextFieldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NITextFieldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CBF690169408A8004EC88C /* NITextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NITextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CBF699169408A8004EC88C /* NITextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NITextFieldTests-Info.plist"; sourceTree = "<group>"; };
 		38CBF69B169408A8004EC88C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38CBF69D169408A8004EC88C /* NITextFieldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NITextFieldTests.h; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				38CBF666169408A8004EC88C /* NITextField.app */,
-				38CBF690169408A8004EC88C /* NITextFieldTests.octest */,
+				38CBF690169408A8004EC88C /* NITextFieldTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,7 +228,7 @@
 			);
 			name = NITextFieldTests;
 			productName = NITextFieldTests;
-			productReference = 38CBF690169408A8004EC88C /* NITextFieldTests.octest */;
+			productReference = 38CBF690169408A8004EC88C /* NITextFieldTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */

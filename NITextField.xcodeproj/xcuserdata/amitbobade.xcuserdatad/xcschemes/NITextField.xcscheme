@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "38CBF68F169408A8004EC88C"
-               BuildableName = "NITextFieldTests.octest"
+               BuildableName = "NITextFieldTests.xctest"
                BlueprintName = "NITextFieldTests"
                ReferencedContainer = "container:NITextField.xcodeproj">
             </BuildableReference>
